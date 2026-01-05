@@ -287,3 +287,24 @@ body {
     animation: none;
   }
 }
+/* ===== VEHICLES SECTION ===== */
+.vehicles {
+  padding: 120px 40px;
+}
+
+.vehicles-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.vehicles-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+.vehicles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
