@@ -1,6 +1,6 @@
 const vehicles = [
   {
-    id: 1,
+    id: "test",
     title: "Vehículo de prueba",
     price: "$0",
     image: "/vehicles/test.png",
