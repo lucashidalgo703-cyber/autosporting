@@ -1,10 +1,16 @@
 import Navbar from "./Navbar";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <header className="header">
-      <h1 className="logo">AUTOSPORTING</h1>
-      <Navbar />
+      <div className="header-container">
+        <Link href="/" className="header-logo">
+          AUTOSPORTING
+        </Link>
+
+        <Navbar />
+      </div>
     </header>
   );
 }
