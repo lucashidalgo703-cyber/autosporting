@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="hero-content">
+      <div className="hero-inner">
         <h1 className="hero-title">AUTOSPORTING</h1>
 
         <p className="hero-subtitle">
