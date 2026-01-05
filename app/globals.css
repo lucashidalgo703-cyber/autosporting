@@ -243,3 +243,26 @@ body {
 .navbar a:hover {
   opacity: 0.6;
 }
+/* ===== HERO ===== */
+.hero {
+  padding: 160px 40px 120px;
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 24px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666;
+  max-width: 620px;
+}
